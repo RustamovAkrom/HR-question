@@ -1,0 +1,11 @@
+[flake8]
+
+exclude = .env, __pycache__, *.pyc, .git, env
+
+max-line-length = 79
+
+ignore = E501, W503
+
+include = *.py
+
+format = default
